@@ -1,15 +1,15 @@
 * {
   box-sizing: border-box;
- }
+}
 
 .header_title {
   text-decoration: underline;
   text-decoration-style: double;
   font-weight: 900;
   text-align: center;
-  font-family: 'Arial Black', Gadget, sans-serif	;
+  font-family: 'Arial Black', Gadget, sans-serif;
   font-size: 35px;
- }
+}
   
 .block {
   width: 60vw;
@@ -31,17 +31,17 @@
   width: 250px;
   height: 150px;
   position: absolute;
-  top: -80px;
+  top: -75px;
   right: -120px;
 }
 
 .title_h3 {
   font-size: 14px;
-  margin-top:20px;
+  margin-top: 20px;
 }
    
 .title {
-  font-family: 'Arial Black', Gadget, sans-serif	;
+  font-family: 'Arial Black', Gadget, sans-serif;
   text-decoration:underline;  
   font-size: 16px;
 }
@@ -73,15 +73,15 @@
 }
 
 .charlotte_paragraph:first-letter {
-  color:  rgba(34, 104, 88, 0.916);
+  color: rgba(34, 104, 88, 0.916);
 }
   
 .charlotte_title_h3 {
-  color:rgba(34, 104, 88, 0.916);
+  color: rgba(34, 104, 88, 0.916);
 }
   
 .list-charlotte:nth-child(2n) {
-  color:rgba(34, 104, 88, 0.916);
+  color: rgba(34, 104, 88, 0.916);
   text-decoration: underline;
   text-decoration-style:dotted;
 }
@@ -111,4 +111,30 @@
   color:rgb(97, 116, 137);
   text-decoration: underline;
   text-decoration-style:dashed;
+}
+
+.cookie_img {
+  border: 5px solid rgba(47, 113, 47, 0.863)
+}
+.cookie {
+  background-color: rgba(34, 189, 62, 0.297);
+  border-color: rgba(47, 113, 47, 0.863);
+}
+
+.cookie_title {
+  color: rgba(47, 113, 47, 0.863);
+}
+
+.cookie_paragraph:first-letter {
+  color: rgba(34, 104, 88, 0.916);
+}
+
+.cookie_title_h3 {
+  color:rgba(34, 104, 88, 0.916);
+}
+
+.list-cookie:nth-child(2n) {
+  color:rgba(34, 104, 88, 0.916);
+  text-decoration: underline;
+  text-decoration-style:wavy;
 }
