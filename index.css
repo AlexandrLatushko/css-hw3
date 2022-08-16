@@ -3,18 +3,21 @@
  }
 
 .header_title {
- text-decoration: underline;
- text-decoration-style: double;
- font-weight: 900;
- text-align: center;
- font-family: 'Arial Black', Gadget, sans-serif	;
- font-size: 35px;
+  text-decoration: underline;
+  text-decoration-style: double;
+  font-weight: 900;
+  text-align: center;
+  font-family: 'Arial Black', Gadget, sans-serif	;
+  font-size: 35px;
  }
   
 .block {
   width: 60vw;
+  font-size: 12px;
+  font-family: Verdana, Geneva, sans-serif;
   position: relative;
   padding: 35px;
+  padding-bottom: 15px;
   margin: 0 auto;
   margin-top: 110px;
   border: 4px;
@@ -22,63 +25,90 @@
   border-right-style:solid ;
   border-left-style: dashed;
   border-bottom-style: dashed;
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 12px;
-  }
+}
 
-  .img {
-    width: 250px;
-    height: 150px;
-    position: absolute;
-    top: -80px;
-    right: -120px;
+.img {
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  top: -80px;
+  right: -120px;
+}
+
+.title_h3 {
+  font-size: 14px;
+  margin-top:20px;
+}
+   
+.title {
+  font-family: 'Arial Black', Gadget, sans-serif	;
+  text-decoration:underline;  
+  font-size: 16px;
+}
+
+.paragraph:first-letter {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.paragaph-footer {
+  text-decoration: underline;
+  text-decoration-line:overline;
+  font-style: italic;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.charlotte_img {
+  border: 5px solid rgba(34, 104, 88, 0.916);
+}
+
+.charlotte {
+  background-color: rgba(121, 197, 197, 0.345);
+  border-color: rgba(121, 197, 197, 1);
+}
+
+.charlotte_title {
+  color: rgba(34, 104, 88, 0.916);
+}
+
+.charlotte_paragraph:first-letter {
+  color:  rgba(34, 104, 88, 0.916);
+}
   
-  }
-  .title_h3 {
-    font-size: 14px;
-    margin-top:20px;
-  }
+.charlotte_title_h3 {
+  color:rgba(34, 104, 88, 0.916);
+}
   
-  .charlotte_img {
-    border: 5px solid rgba(34, 104, 88, 0.916);
-    
-  }
-
-  .charlotte {
-    background-color: rgba(121, 197, 197, 0.345);
-    border-color: rgba(121, 197, 197, 1);
-  }
-
-  .title {
-    font-family: 'Arial Black', Gadget, sans-serif	;
-    text-decoration:underline;  
-    font-size: 16px;
-  }
-
-  .charlotte_title {
-    color: rgba(34, 104, 88, 0.916);
-  }
-
-  .paragraph:first-letter {
-    font-size: 20px;
-    font-weight: 900;
-    color:rgba(34, 104, 88, 0.916);
-  }
- 
-  .charlotte_title_h3 {
-    color:rgba(34, 104, 88, 0.916);
-  }
+.list-charlotte:nth-child(2n) {
+  color:rgba(34, 104, 88, 0.916);
+  text-decoration: underline;
+  text-decoration-style:dotted;
+}
   
-  .list-charlotte:nth-child(2n) {
-    color:rgba(34, 104, 88, 0.916);
-    text-decoration: underline;
-    text-decoration-style:dotted;
-  }
+.tiramisu {
+  background-color: rgba(97, 116, 137, 0.298);
+  border-color: rgb(97, 116, 137);
+}
 
-  .paragaph-footer {
-    text-decoration: underline;
-    text-decoration-line:overline;
-    font-style: italic;
-    margin-top: 60px;
+.tiramisu_img {
+  border: 5px solid  rgb(97, 116, 137);
+}
 
-  }
+.tiramisu_title {
+  color:  rgb(97, 116, 137);
+}
+
+.tiramisu_paragraph:first-letter {
+  color:  rgb(97, 116, 137);
+}
+
+.tiramisu_title_h3 {
+  color:rgb(97, 116, 137);
+}
+  
+.list-tiramisu:nth-child(2n+1) {
+  color:rgb(97, 116, 137);
+  text-decoration: underline;
+  text-decoration-style:dashed;
+}
